@@ -1,6 +1,5 @@
 .photo-collage {
     max-width: 100%;
-    margin-bottom: 35px;
     -ms-grid-columns: 1fr 1.25fr;
     grid-template-columns: 1fr 1.25fr;
     -ms-grid-rows: auto auto auto;
@@ -19,8 +18,78 @@
     grid-column-gap: 16px;
     }
 
+.background0{
+  background-color:#fcd5ce ;
+  background-size: cover;
+}
+
+.background1{
+  background-color:#fae1dd ;  
+  background-size: cover;
+}
+
+.background2{
+  background-color:#f8edeb ;
+  background-size: cover;
+}
+
+.background3{
+  background-color: #E8E8E4;
+  background-size: cover;
+}
+
+.background4{
+  background-color: #D8E2DC;
+  background-size: cover;
+}
+
+.background5{
+  background-color: #ECE4DB;
+  background-size: cover;  
+}
+
 .grid{
     display: grid;
-    grid-template-columns: 1fr 1fr 2fr;
-    margin-top: 15%;
+    grid-template-columns: 200px auto auto;
 }
+
+.grid1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid2{
+    display: grid;
+    grid-template-columns: 700px auto auto;
+}
+
+.margintext{
+    margin-top: 90px;
+}
+
+.p0{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 35px;
+}
+
+.p1{
+    font-family: 'Special Elite', cursive;
+    font-size: 26px;
+}
+
+.p2{
+    font-family: 'Special Elite', cursive;
+    line-height: 32px;
+    font-size: 16px;
+}
+
+.p3{
+    font-family: 'Architects Daughter', cursive;
+    font-size: 18px;
+    margin-left: 280px;
+}
+
+.animated {
+    opacity: 1;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    }
