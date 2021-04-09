@@ -89,7 +89,6 @@
     margin-left: 280px;
 }
 
-.animated {
-    opacity: 1;
-    transform: matrix(1, 0, 0, 1, 0, 0);
-    }
+.button{
+    margin-left: 280px;
+}
