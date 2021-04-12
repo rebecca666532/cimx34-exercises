@@ -1,22 +1,22 @@
 .photo-collage {
-    max-width: 100%;
-    -ms-grid-columns: 1fr 1.25fr;
-    grid-template-columns: 1fr 1.25fr;
-    -ms-grid-rows: auto auto auto;
-    grid-template-rows: auto auto auto;
-    }
+  max-width: 100%;
+  -ms-grid-columns: 1fr 1.25fr;
+  grid-template-columns: 1fr 1.25fr;
+  -ms-grid-rows: auto auto auto;
+  grid-template-rows: auto auto auto;
+}
 
 .w-layout-grid {
-    display: -ms-grid;
-    display: grid;
-    grid-auto-columns: 1fr;
-    -ms-grid-columns: 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    -ms-grid-rows: auto auto;
-    grid-template-rows: auto auto;
-    grid-row-gap: 16px;
-    grid-column-gap: 16px;
-    }
+  display: -ms-grid;
+  display: grid;
+  grid-auto-columns: 1fr;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+}
 
 .background0{
   background-color:#fcd5ce ;
@@ -49,46 +49,108 @@
 }
 
 .grid{
-    display: grid;
-    grid-template-columns: 200px auto auto;
+  display: grid;
+  grid-template-columns: 200px auto auto;
 }
 
 .grid1{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .grid2{
-    display: grid;
-    grid-template-columns: 700px auto auto;
+  display: grid;
+  grid-template-columns: 700px auto auto;
+}
+
+.grid3{
+  display: grid;
+  grid-template-columns: 50px auto;
 }
 
 .margintext{
-    margin-top: 90px;
+  margin-top: 90px;
 }
 
 .p0{
-    font-family: 'Fredericka the Great', cursive;
-    font-size: 35px;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 35px;
 }
 
 .p1{
-    font-family: 'Special Elite', cursive;
-    font-size: 26px;
+  font-family: 'Special Elite', cursive;
+  font-size: 26px;
 }
 
 .p2{
-    font-family: 'Special Elite', cursive;
-    line-height: 32px;
-    font-size: 16px;
+  font-family: 'Special Elite', cursive;
+  line-height: 32px;
+  font-size: 16px;
 }
 
 .p3{
-    font-family: 'Architects Daughter', cursive;
-    font-size: 18px;
-    margin-left: 280px;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 18px;
+  margin-left: 280px;
 }
 
 .button{
-    margin-left: 280px;
+  margin-left: 280px;
 }
+
+.animation0 {
+  width: 50px;
+  height: 50px;
+  background-color: #E76F51;
+  position: relative;
+  animation-name: example;
+  animation-duration: 2s;
+  animation-delay: 0s;
+}
+
+@keyframes example {
+  0%   {background-color:#264653; left:0px; top:0px;}
+  25%  {background-color:#2A9D8F; left:200px; top:0px;}
+  50%  {background-color:#E9C46A; left:200px; top:100px;}
+  75%  {background-color:#F4A261; left:0px; top:100px;}
+  100% {background-color:#E76F51; left:0px; top:0px;}
+}
+
+.animation1 {
+  width: 50px;
+  height: 50px;
+  background-color: #264653;
+  position: relative;
+  animation-name: example1;
+  animation-duration: 2s;
+  animation-delay: 0s;
+}
+
+@keyframes example1 {
+  0%   {background-color:#2A9D8F; left:0px; top:0px;}
+  25%  {background-color:#F4A261; left:200px; top:0px;}
+  50%  {background-color:#E9C46A; left:200px; top:100px;}
+  75%  {background-color:#E76F51; left:0px; top:100px;}
+  100% {background-color:#264653; left:0px; top:0px;}
+}
+
+.animation2{
+  position: relative;
+  animation-name: example2;
+  animation-duration: 1s;
+  animation-delay: 0s; 
+  animation-fill-mode:forwards;
+}
+
+@keyframes example2 {
+  0%   {right:1000px; top:0px;}
+  100% {right:0px; top:0px;}
+}
+
+
+
+
+
+
+
+
